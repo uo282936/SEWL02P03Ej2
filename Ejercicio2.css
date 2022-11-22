@@ -1,0 +1,30 @@
+/*****************
+ ALEX RODRIGUEZ VALDES - UO282936
+ Estilos de los documentos html
+*****************/
+
+/* Especificidad (0,0,1) */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: black;
+    background-color: #e8b7df;
+}
+
+/* Especificidad (0,0,1) */
+h1 {
+    font-size: 2.2em;
+
+	/* hereda de body -> color: black; */
+    background-color: #e2a0d6;
+}
+
+/* Especificidad (0,0,1) */
+h2 {
+    font-size: 1.8em;
+}
+
+/* Especificidad (0,0,1) */
+p {
+    font-size: 0.8em;
+}
